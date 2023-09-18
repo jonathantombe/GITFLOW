@@ -1,0 +1,47 @@
+body{
+    height: auto;
+    background-image: url(imagenes/stars.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0; 
+    padding: 0;
+
+}
+header{
+	display: flex;
+	justify-content: center;
+}
+header img{
+	background-color: #fff;
+	height: 8rem; 
+	display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+
+header img:hover{
+    box-shadow: 0px 0px 1px 6px white;
+	border-radius:2rem;
+	border:1px solid white;
+	cursor:pointer;
+	color:white;
+	
+}
+
+.contact_form{	
+	display: flex;
+	justify-content: center;
+	width: 460px;
+	margin: 0px auto;
+	padding:10px 30px 20px 30px
+}
+
+.duck{
+	text-align: center;
+}
+#patoportafolio{
+	height:10rem;
+}
