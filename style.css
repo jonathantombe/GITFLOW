@@ -250,3 +250,145 @@ footer a {
     color: #fff; 
     text-decoration: none; 
 }
+
+
+@media screen and (min-width: 1280px) {
+    .perfil{
+        width: auto;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+  }
+  
+ 
+ 
+ 
+ 
+  @media screen and (min-width: 921px) and (max-width: 1279px) {
+    .perfil{
+        width: auto;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+  }
+
+ 
+ 
+ 
+ 
+ 
+  @media screen and (min-width: 769px) and (max-width: 920px) {
+    .redesociales {
+        padding: 0;
+    }
+
+    .header-cv > .container-navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .cont-info {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 5rem;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    body{
+        padding-top: 15rem;
+    }
+  }
+
+  
+  
+  
+  
+  
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .logo {
+        flex-direction: column;
+    }
+    .redesociales {
+        padding: 0;
+    }
+
+    .cardsdecards{
+        padding: 3rem;
+    }
+
+    .header-cv > .container-navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .cont-info {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 5rem;
+    }
+
+    .header-cv {
+        position: relative;
+        width: 100%;
+    }
+
+    body{
+        padding-top: 1rem;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width: 480px) {
+    .logo {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .header-cv > .container-navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .cont-info {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 5rem;
+    }
+
+    .information{
+        text-align: center;
+    }
+
+    .container-cv{
+        display: flex;
+    justify-content: center;
+    }
+
+    .redesociales {
+        padding: 0;
+    }
+    
+    
+    .header-cv {
+        position: relative;
+        width: 100%;
+    }
+  }
